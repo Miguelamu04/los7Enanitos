@@ -1,0 +1,165 @@
+body{
+    width: 1280px;
+    border: 10px solid black;
+    height: 800px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 5px;
+}
+
+#contenedor1{
+    width: 1258px;
+    height: 380px;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: rgb(163, 183, 184);
+    position: relative;
+} 
+#contenedor2{
+    width: 1258px;
+    height: 380px;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: rgb(163, 183, 184);
+    position: relative;
+    overflow: hidden;
+}
+
+.camas-linea{
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 40px 20px 20px 20px;
+    background-color: rgb(245, 216, 182);
+}  
+
+/* .camas-linea{
+    float: right;
+    width: 100px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 40px 20px 20px 20px;
+    background-color: rgb(245, 216, 182);
+}  */ 
+
+.camas-bloque{
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+    margin: 40px 20px 20px 20px;
+    border: 2px solid black;  
+    background-color: rgb(119, 119, 201);
+} 
+
+/* .camas-bloque{
+    float: right;
+    width: 100px;
+    height: 300px;
+    margin: 40px 20px 20px 20px;
+    border: 2px solid black;  
+    background-color: rgb(119, 119, 201);
+} */
+
+/* #camaGruñon{
+    position: relative;
+    left: 900px;
+} */ 
+
+/* #camaGruñon{
+    position: absolute;
+    right: 20px;
+    background-color: #5b5b5b !important;
+} */
+
+#camaTimido{
+    position: absolute;
+    right: -250px;
+}
+
+.camas-linea::first-letter,
+.camas-bloque::first-letter {
+    font-size: 30px;
+    color: #D6234A;
+    font-weight: bold;
+}
+
+#contenedor1 .camas-linea:nth-of-type(even) {
+    background-color: #F1FEE3;
+}
+
+#puerta1{
+    width: 40px;
+    height: 120px;
+    background-color: #5b5b5b;
+    position: absolute;
+    top: 340px;
+    z-index: 1;
+    left: -50px;
+    border-radius: 3px;
+}
+
+#puerta2{
+    width: 40px;
+    height: 120px;
+    background-color: #5b5b5b;
+    position: absolute;
+    top: 340px;
+    right: -50px;
+    border-radius: 3px;
+} 
+
+/*SKILL FRONTEND*/
+
+#marcoPuerta1{
+    width: 10px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 340px;
+    left: -10px;
+}  
+
+#marcoPuerta2{
+    width: 10px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 340px;
+    right: -10px;
+}
+
+#tituloTimido{
+    width: 100px;
+    height: 50px;
+    font-size: xx-large;
+    position: absolute;
+    top: 250px;
+    right: -215px;
+}
+
+#imagenFlecha{
+    width: 100px;
+    position: absolute;
+    top: 320px;
+    right: -215px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
